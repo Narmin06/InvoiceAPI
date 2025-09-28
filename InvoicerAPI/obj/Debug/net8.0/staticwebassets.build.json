@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "h/mpj3ewjRL3+q1OTNUlZPF+BbvCJr8qlkIl5N25TmE=",
+  "Source": "InvoicerAPI",
+  "BasePath": "_content/InvoicerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
