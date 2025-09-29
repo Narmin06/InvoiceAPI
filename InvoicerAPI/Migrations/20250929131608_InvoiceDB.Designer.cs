@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InvoicerAPI.Migrations
 {
     [DbContext(typeof(InvoicerContext))]
-    [Migration("20250920092628_InvoiceDB")]
+    [Migration("20250929131608_InvoiceDB")]
     partial class InvoiceDB
     {
         /// <inheritdoc />
@@ -37,7 +37,7 @@ namespace InvoicerAPI.Migrations
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<DateTimeOffset>("DeletedAt")
+                    b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<DateTimeOffset>("EndDate")
@@ -48,6 +48,9 @@ namespace InvoicerAPI.Migrations
 
                     b.Property<DateTimeOffset>("StartDate")
                         .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("TotalSum")
                         .HasColumnType("decimal(18,2)");
@@ -77,7 +80,7 @@ namespace InvoicerAPI.Migrations
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<DateTimeOffset>("DeletedAt")
+                    b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<Guid>("InvoiceId")
@@ -92,6 +95,9 @@ namespace InvoicerAPI.Migrations
                     b.Property<string>("Service")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Sum")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTimeOffset>("UpdatedAt")
                         .HasColumnType("datetimeoffset");
@@ -115,7 +121,7 @@ namespace InvoicerAPI.Migrations
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<DateTimeOffset>("DeletedAt")
+                    b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Email")
@@ -157,11 +163,13 @@ namespace InvoicerAPI.Migrations
 
             modelBuilder.Entity("InvoicerAPI.Models.InvoiceRow", b =>
                 {
-                    b.HasOne("InvoicerAPI.Models.Invoice", null)
+                    b.HasOne("InvoicerAPI.Models.Invoice", "Invoice")
                         .WithMany("Rows")
                         .HasForeignKey("InvoiceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Invoice");
                 });
 
             modelBuilder.Entity("InvoicerAPI.Models.Invoice", b =>

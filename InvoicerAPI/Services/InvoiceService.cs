@@ -26,7 +26,7 @@ public class InvoiceService : IInvoiceService
             EndDate = invoiceDto.EndDate,
             Status = InvoiceStatus.Created,
         };
-        _context.Invoices.Add(new_invoice);
+        await _context.Invoices.AddAsync(new_invoice);
         await _context.SaveChangesAsync();
 
         return ChangeInvoiceDTO(new_invoice);
@@ -144,7 +144,7 @@ public class InvoiceService : IInvoiceService
             Comment = invoice.Comment,
             StartDate = invoice.StartDate,
             EndDate = invoice.EndDate,
-            Status = invoice.Status.ToString(),
+            Status = invoice.Status,
             Rows = invoice.Rows.Select(r => new InvoiceRowDTO
             {
                 Id = r.Id,

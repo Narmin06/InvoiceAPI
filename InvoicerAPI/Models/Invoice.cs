@@ -10,7 +10,7 @@ public class Invoice :BaseEntity
     public string? Comment { get; set; }
     public DateTimeOffset StartDate { get; set; }
     public DateTimeOffset EndDate { get; set; }
-    public InvoiceStatus Status { get; set; } = InvoiceStatus.Created;
+    public InvoiceStatus Status { get; set; } 
     public ICollection<InvoiceRow> Rows { get; set; } = new List<InvoiceRow>();
 } 
   

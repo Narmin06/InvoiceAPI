@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InvoicerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4cfa4383ec1e48210ae41e27609a91d7f656b19")]
 [assembly: System.Reflection.AssemblyProductAttribute("InvoicerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InvoicerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,26 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|c:\\users\\asus\\desktop\\invoicerapi-main\\invoicerapi\\controllers\\invoicerowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|solutionrelative:invoicerapi\\controllers\\invoicerowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InvoiceDB/True/SqlTable/dbo.Invoices.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|c:\\users\\asus\\desktop\\invoicerapi-main\\invoicerapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|solutionrelative:invoicerapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|c:\\users\\asus\\desktop\\invoicerapi-main\\invoicerapi\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|solutionrelative:invoicerapi\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|c:\\users\\asus\\desktop\\invoicerapi-main\\invoicerapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|solutionrelative:invoicerapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|c:\\users\\asus\\desktop\\invoicerapi-main\\invoicerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB03BD60-DE05-4B40-8463-A7F0F6C140C5}|InvoicerAPI\\InvoicerAPI.csproj|solutionrelative:invoicerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InvoiceDB/True/SqlTable/dbo.InvoiceRows.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +16,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InvoiceRowController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Controllers\\InvoiceRowController.cs",
-              "RelativeDocumentMoniker": "InvoicerAPI\\Controllers\\InvoiceRowController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Controllers\\InvoiceRowController.cs*",
-              "RelativeToolTip": "InvoicerAPI\\Controllers\\InvoiceRowController.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAADwvyIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:18:09.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InvoiceController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Controllers\\InvoiceController.cs",
-              "RelativeDocumentMoniker": "InvoicerAPI\\Controllers\\InvoiceController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Controllers\\InvoiceController.cs*",
-              "RelativeToolTip": "InvoicerAPI\\Controllers\\InvoiceController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:37:18.849Z",
+              "Title": "dbo.InvoiceRows [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InvoiceDB/True/SqlTable/dbo.InvoiceRows.sql",
+              "ToolTip": "dbo.InvoiceRows [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-29T13:31:46.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Services\\InvoiceService.cs",
-              "RelativeDocumentMoniker": "InvoicerAPI\\Services\\InvoiceService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Services\\InvoiceService.cs*",
-              "RelativeToolTip": "InvoicerAPI\\Services\\InvoiceService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T17:39:08.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "InvoicerAPI\\Models\\Invoice.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Models\\Invoice.cs",
-              "RelativeToolTip": "InvoicerAPI\\Models\\Invoice.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:13:46.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Program.cs",
-              "RelativeDocumentMoniker": "InvoicerAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\InvoicerAPI-main\\InvoicerAPI\\Program.cs",
-              "RelativeToolTip": "InvoicerAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:38:16.522Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Invoices [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InvoiceDB/True/SqlTable/dbo.Invoices.sql",
+              "ToolTip": "dbo.Invoices [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-29T13:18:47.954Z",
               "EditorCaption": ""
             }
           ]

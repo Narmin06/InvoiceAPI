@@ -12,6 +12,8 @@ builder.Services.AddDbContext<InvoicerContext>(options =>
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
+builder.Services.AddScoped<IInvoiceRowService, InvoiceRowService>();
+
 
 builder.Services.AddControllers();
 

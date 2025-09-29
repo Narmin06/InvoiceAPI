@@ -13,6 +13,6 @@ public class InvoiceResponseDTO
     public string? Comment { get; set; }
     public DateTimeOffset StartDate { get; set; }
     public DateTimeOffset EndDate { get; set; }
-    public string Status { get; set; } = string.Empty;
+    public InvoiceStatus Status { get; set; }
     public List<InvoiceRowDTO> Rows { get; set; } = new();
 }

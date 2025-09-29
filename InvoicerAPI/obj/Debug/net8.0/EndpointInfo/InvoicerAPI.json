@@ -555,10 +555,6 @@
       "UpdateInvoiceRowDTO": {
         "type": "object",
         "properties": {
-          "invoiceId": {
-            "type": "string",
-            "format": "uuid"
-          },
           "service": {
             "type": "string",
             "nullable": true
